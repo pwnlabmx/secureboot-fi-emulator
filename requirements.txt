@@ -1,0 +1,9 @@
+# Core emulation and disassembly.
+# Fault-model results were verified against these versions; the built-in
+# self-test re-checks the behaviours the analysis relies on and will run
+# automatically if your installed versions differ.
+unicorn>=2.0,<3
+capstone>=5.0,<6
+
+# Optional: only needed if you (re)generate test blobs or x86 payloads.
+# keystone-engine>=0.9
